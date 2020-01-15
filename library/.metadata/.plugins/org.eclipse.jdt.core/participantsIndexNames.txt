@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+/home/sunbeam/DAC/library/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3264970154.index
+/library_management/src
+/home/sunbeam/DAC/library/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1381156694.index
+/library/src

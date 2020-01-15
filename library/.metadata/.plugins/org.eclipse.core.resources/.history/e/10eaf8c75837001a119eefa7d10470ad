@@ -1,0 +1,11 @@
+package com.app.dao;
+
+public class UserDaoImpl implements IUserDao
+{
+
+	@Override
+	public String LoginUser(String email, String password) {
+		
+	}
+
+}

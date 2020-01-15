@@ -1,0 +1,77 @@
+package com.app.pojos;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="book")
+public class Book 
+{
+
+	private Integer bookId;
+	private String subjectName, bookName, authorName;
+	private float price;
+    private Copies copyId;
+	public Book() 
+	{	}
+	public Book( String subjectName, String bookName, String authorName, float price) 
+	{
+		
+		this.subjectName = subjectName;
+		this.bookName = bookName;
+		this.authorName = authorName;
+		this.price = price;
+	}
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	public int getBookId() {
+		return bookId;
+	}
+	public void setBookId(int bookId) {
+		this.bookId = bookId;
+	}
+	
+	@Column(length = 20)
+	public String getSubjectName() {
+		return subjectName;
+	}
+	public void setSubjectName(String subjectName) {
+		this.subjectName = subjectName;
+	}
+	
+	@Column(length = 20)
+	public String getBookName() {
+		return bookName;
+	}
+	public void setBookName(String bookName) {
+		this.bookName = bookName;
+	}
+	
+	@Column(length = 20)
+	public String getAuthorName() {
+		return authorName;
+	}
+	public void setAuthorName(String authorName) {
+		this.authorName = authorName;
+	}
+	@Column(length = 20)
+	public float getPrice() {
+		return price;
+	}
+	public void setPrice(float price) {
+		this.price = price;
+	}
+	@Override
+	public String toString() {
+		return "Book [bookId=" + bookId + ", subjectName=" + subjectName + ", bookName=" + bookName + ", authorName="
+				+ authorName + ", price=" + price + "]";
+	}
+	public Copies getCopyId() {
+		return copyId;
+	}
+	public void setCopyId(Copies copyId) {
+		this.copyId = copyId;
+	}
+	
+}
+

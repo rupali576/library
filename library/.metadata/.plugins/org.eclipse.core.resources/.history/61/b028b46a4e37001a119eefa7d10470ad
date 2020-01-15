@@ -1,0 +1,74 @@
+package com.app.pojos;
+
+import java.util.Date;
+
+public class Payment 
+{
+  private Integer id;
+  private double amount;
+  private String type;
+  private String transaction_time;
+  private Date nextPayment_dueDate;
+  
+  privatete User userId;
+  
+public Payment(double amount, String type, String transaction_time, Date nextPayment_dueDate) {
+	super();
+	this.amount = amount;
+	this.type = type;
+	this.transaction_time = transaction_time;
+	this.nextPayment_dueDate = nextPayment_dueDate;
+}
+
+
+public Integer getId() {
+	return id;
+}
+
+
+public void setId(Integer id) {
+	this.id = id;
+}
+
+
+public double getAmount() {
+	return amount;
+}
+
+
+public void setAmount(double amount) {
+	this.amount = amount;
+}
+
+
+public String getType() {
+	return type;
+}
+
+
+public void setType(String type) {
+	this.type = type;
+}
+
+
+public String getTransaction_time() {
+	return transaction_time;
+}
+
+
+public void setTransaction_time(String transaction_time) {
+	this.transaction_time = transaction_time;
+}
+
+
+public Date getNextPayment_dueDate() {
+	return nextPayment_dueDate;
+}
+
+
+public void setNextPayment_dueDate(Date nextPayment_dueDate) {
+	this.nextPayment_dueDate = nextPayment_dueDate;
+}
+  
+  
+}

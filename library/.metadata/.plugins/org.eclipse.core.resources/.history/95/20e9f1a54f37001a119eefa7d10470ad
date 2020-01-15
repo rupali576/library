@@ -1,0 +1,91 @@
+package com.app.pojos;
+
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="copies")
+public class Copies 
+{
+	 public Integer id;
+	 public Integer rack;
+	 public String status;
+	 
+	 public  Book bookid;
+	 public List<IssueRecord> issue_record;
+	
+	 
+	 public Copies()
+	 {
+		 
+	 }
+	public Copies( Integer rack, String status) {
+
+		
+	
+		this.rack = rack;
+		this.status = status;
+	}
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	
+	@Column(length = 30)
+	public Integer getRack() {
+		return rack;
+	}
+	public void setRack(Integer rack) {
+		this.rack = rack;
+	}
+	
+	@Column(length = 30)
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	
+	
+	@ManyToOne
+	@JoinColumn(name = "bookId")
+	public Book getBookid() 
+	{
+		return bookid;
+	}
+	public void setBookid(Book bookid) {
+		this.bookid = bookid;
+	}
+	
+	@OneToMany(mappedBy ="copyid", cascade = CascadeType.ALL, orphanRemoval = true )
+	public List<IssueRecord> getIssue_record() {
+		return issue_record;
+	}
+
+	public void setIssue_record(List<IssueRecord> issue_record) {
+		this.issue_record = issue_record;
+	}
+
+	@Override
+	public String toString() {
+		return "copies [id=" + id + ", bookid=" + bookid + ", rack=" + rack + ", status=" + status + "]";
+	}
+
+}

@@ -1,0 +1,58 @@
+package com.app.pojos;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="copies")
+public class Copies 
+{
+	 public Integer id;
+	 public Integer rack;
+	 public String status;
+	 
+	 public  Book bookid;
+	 
+	public Copies(Book bookid, Integer rack, String status) {
+
+		
+		this.bookid = bookid;
+		this.rack = rack;
+		this.status = status;
+	}
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public Book getBookid() {
+		return bookid;
+	}
+	public void setBookid(Book bookid) {
+		this.bookid = bookid;
+	}
+	public int getRack() {
+		return rack;
+	}
+	public void setRack(int rack) {
+		this.rack = rack;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	@Override
+	public String toString() {
+		return "copies [id=" + id + ", bookid=" + bookid + ", rack=" + rack + ", status=" + status + "]";
+	}
+
+}

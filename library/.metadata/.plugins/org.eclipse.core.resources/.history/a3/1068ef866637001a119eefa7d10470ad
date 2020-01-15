@@ -1,0 +1,13 @@
+package com.app.dao;
+
+import com.app.pojos.Book;
+
+public class IBookDaoImpl implements IBookDao {
+
+	@Override
+	public Book getBookById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

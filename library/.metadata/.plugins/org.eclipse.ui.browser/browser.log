@@ -1,0 +1,86 @@
+
+Jan 15, 2020 10:34:57.80 NEW SESSION
+Jan 15, 2020 10:34:57.80 [2828:2828:0115/103457.801581:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 10:35:03.04 [2828:2828:0115/103503.045830:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 15, 2020 10:37:37.69 [4006:4006:0115/103737.698125:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 10:37:37.84 [3963:3985:0115/103737.846305:ERROR:browser_process_sub_thread.cc(221)] Waited 76 ms for network service
+Jan 15, 2020 10:37:37.88 Opening in existing browser session.
+Jan 15, 2020 10:38:47.30 [4557:4578:0115/103847.302190:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 15, 2020 10:38:47.35 Opening in existing browser session.
+Jan 15, 2020 10:43:13.30 [5896:5896:0115/104313.301368:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 10:43:13.36 [5835:5878:0115/104313.367556:ERROR:browser_process_sub_thread.cc(221)] Waited 257 ms for network service
+Jan 15, 2020 10:43:13.37 Opening in existing browser session.
+Jan 15, 2020 10:47:03.31 [6975:6996:0115/104703.317088:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 15, 2020 10:47:03.42 Opening in existing browser session.
+Jan 15, 2020 10:48:22.25 [7495:7516:0115/104822.249897:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 15, 2020 10:48:22.38 Opening in existing browser session.
+Jan 15, 2020 10:49:59.97 [2792:2792:0115/104959.956126:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 15, 2020 10:51:00.13 [2792:2792:0115/105100.134634:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 15, 2020 10:52:36.42 [2792:2792:0115/105236.426652:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 15, 2020 10:52:46.53 [8771:8771:0115/105246.532225:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 10:52:46.55 [8732:8753:0115/105246.556546:ERROR:browser_process_sub_thread.cc(221)] Waited 51 ms for network service
+Jan 15, 2020 10:52:46.65 Opening in existing browser session.
+Jan 15, 2020 10:52:49.70 [2792:2813:0115/105249.707943:ERROR:browser_process_sub_thread.cc(221)] Waited 191 ms for network service
+Jan 15, 2020 10:58:24.08 [10430:10430:0115/105824.086144:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 10:58:24.62 [10430:10430:0115/105824.623396:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 15, 2020 11:06:16.13 [10389:10389:0115/110616.133741:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 15, 2020 11:07:15.83 [10389:10389:0115/110715.838884:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 15, 2020 11:07:40.79 [13051:13051:0115/110740.787442:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 11:07:40.83 [13015:13036:0115/110740.830904:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 15, 2020 11:07:40.87 Opening in existing browser session.
+Jan 15, 2020 11:08:32.27 [10389:10389:0115/110832.276618:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 15, 2020 11:10:33.21 [10389:10389:0115/111033.218928:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 15, 2020 11:14:28.72 [14786:14786:0115/111428.726352:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 11:14:28.74 [14749:14769:0115/111428.740876:ERROR:browser_process_sub_thread.cc(221)] Waited 1 ms for network service
+Jan 15, 2020 11:14:28.77 Opening in existing browser session.
+Jan 15, 2020 11:14:28.88 [10389:10389:0115/111428.879714:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 15, 2020 11:16:32.24 [15454:15454:0115/111632.240057:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 11:16:32.34 Opening in existing browser session.
+Jan 15, 2020 11:19:12.07 [16250:16250:0115/111912.036717:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 11:19:12.11 [16214:16234:0115/111912.112758:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 15, 2020 11:19:12.17 Opening in existing browser session.
+Jan 15, 2020 11:20:05.14 [16669:16669:0115/112005.142190:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 11:20:05.19 [16631:16651:0115/112005.194358:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 15, 2020 11:20:05.26 Opening in existing browser session.
+Jan 15, 2020 11:21:39.93 [17205:17225:0115/112139.932683:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 15, 2020 11:21:39.99 Opening in existing browser session.
+Jan 15, 2020 11:22:06.77 [10389:10389:0115/112206.778886:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Jan 15, 2020 11:28:57.06 [19322:19322:0115/112857.062260:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 11:28:57.07 [19282:19303:0115/112857.074472:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 15, 2020 11:28:57.18 Opening in existing browser session.
+Jan 15, 2020 11:29:00.53 [10389:10410:0115/112900.536985:ERROR:browser_process_sub_thread.cc(221)] Waited 224 ms for network service
+Jan 15, 2020 11:30:03.50 [19777:19777:0115/113003.499912:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 11:30:03.88 [19777:19777:0115/113003.886774:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 15, 2020 11:37:10.51 [21839:21860:0115/113710.510422:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+Jan 15, 2020 11:37:10.61 Opening in existing browser session.
+Jan 15, 2020 11:49:34.11 [25101:25101:0115/114934.114223:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 11:49:34.14 [25060:25081:0115/114934.148512:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 15, 2020 11:49:34.22 Opening in existing browser session.
+Jan 15, 2020 11:51:55.67 [19739:19739:0115/115155.676138:ERROR:display_info_provider.cc(196)] Not implemented reached in virtual void extensions::DisplayInfoProvider::UpdateDisplayUnitInfoForPlatform(const display::Display &, extensions::api::system_display::DisplayUnitInfo *)
+Jan 15, 2020 11:51:55.71 [19777:19777:0115/115155.713731:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 15, 2020 12:19:04.18 [32321:32321:0115/121904.181700:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 12:19:04.21 [32284:32305:0115/121904.212689:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+Jan 15, 2020 12:19:04.27 Opening in existing browser session.
+Jan 15, 2020 12:22:22.62 [838:838:0115/122222.623653:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 12:22:22.66 [796:818:0115/122222.661200:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 15, 2020 12:22:22.79 Opening in existing browser session.
+Jan 15, 2020 12:33:04.01 [4105:4105:0115/123304.010553:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 12:33:04.03 [4067:4087:0115/123304.029278:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+Jan 15, 2020 12:33:04.12 Opening in existing browser session.
+Jan 15, 2020 13:12:48.38 [14297:14318:0115/131248.385940:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+Jan 15, 2020 13:12:48.46 Opening in existing browser session.
+Jan 15, 2020 13:49:14.74 [16146:16146:0115/134914.741258:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 13:49:14.76 [16107:16128:0115/134914.767366:ERROR:browser_process_sub_thread.cc(221)] Waited 3 ms for network service
+Jan 15, 2020 13:49:14.84 Opening in existing browser session.
+Jan 15, 2020 13:53:48.89 [17345:17345:0115/135348.892248:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 13:53:48.92 [17306:17327:0115/135348.924753:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jan 15, 2020 13:53:48.98 Opening in existing browser session.
+Jan 15, 2020 14:18:54.38 [23663:23663:0115/141854.385786:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 14:18:54.44 [23625:23646:0115/141854.445780:ERROR:browser_process_sub_thread.cc(221)] Waited 7 ms for network service
+Jan 15, 2020 14:18:54.44 [19777:19777:0115/141854.449726:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Jan 15, 2020 14:18:54.56 Opening in existing browser session.
+Jan 15, 2020 14:20:04.47 [24140:24140:0115/142004.476105:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+Jan 15, 2020 14:20:04.52 [24102:24122:0115/142004.525938:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+Jan 15, 2020 14:20:04.58 Opening in existing browser session.
+Jan 15, 2020 14:24:37.04 [25361:25382:0115/142437.042168:ERROR:browser_process_sub_thread.cc(221)] Waited 6 ms for network service
+Jan 15, 2020 14:24:37.12 Opening in existing browser session.

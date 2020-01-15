@@ -1,0 +1,20 @@
+package com.app.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.app.dao.IUserDao;
+import com.app.pojos.User;
+
+public class IUserServiceImpl implements IUserService 
+{
+	@Autowired
+	private IUserDao service;
+	
+	
+	@Override
+	public User AddUser(User u) {
+		
+		return service.registerNewUser(u);
+	}
+
+}

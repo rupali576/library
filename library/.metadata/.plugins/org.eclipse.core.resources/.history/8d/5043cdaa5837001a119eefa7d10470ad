@@ -1,0 +1,6 @@
+package com.app.dao;
+
+public interface IUserDao 
+{
+   String LoginUser(String email,String password)
+}
